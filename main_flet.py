@@ -7,6 +7,7 @@
 import flet as ft
 import numpy as np
 
+result = 0.0
 
 def main(pagina: ft.Page):
     pagina.title = "Exemplo de Tabela com Flet"
@@ -19,9 +20,12 @@ def main(pagina: ft.Page):
     rows = [ ]
 
 
-    # def calcular_soma_coluna():
-    #     soma = 0
-    #     print(soma)
+    def calcular_soma_coluna(valor):
+        global result
+        result += valor
+        print(result)
+        valor_total.value = result
+        pagina.update
 
 
     def add_produto(e):
@@ -29,6 +33,7 @@ def main(pagina: ft.Page):
         id = str(len(rows) + 1)  # Gerando um ID automaticamente
         nome = campo_produto.value
         valor = campo_valor.value
+        valor_float = float(valor)
         qtd = campo_qtd.value
 
         rows.append(
@@ -40,7 +45,8 @@ def main(pagina: ft.Page):
             ])
         )
         table.rows = rows
-        # calcular_soma_coluna()
+        calcular_soma_coluna(valor_float)
+        print(len(rows))
         pagina.update()
 
     
@@ -51,8 +57,13 @@ def main(pagina: ft.Page):
     campo_qtd = ft.TextField(label="Quantidade")
     btn_enviar = ft.ElevatedButton("Add", on_click=add_produto)
 
+    label_total = ft.Text("Total")
+    valor_total = ft.Text(0.0)
+
 
     pagina.add(table)
     pagina.add(ft.Row([campo_produto, campo_valor, campo_qtd, btn_enviar]))
+    pagina.add(ft.Row([label_total, valor_total]))
+
 
 ft.app(target=main)
