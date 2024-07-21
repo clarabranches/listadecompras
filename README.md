@@ -22,7 +22,7 @@ Para instalar o ``VSCode``: https://www.youtube.com/watch?v=iLraM_NZYfA
 - Excluir produto 
 - Atualizar Soma 
 - Editar Produtos
-- Salvar listas de compras com datas para analises futuras
+- Salvar listas de compras com datas para análises futuras
 - Criação de Conta
 - Gerar um Aplicativo
 
