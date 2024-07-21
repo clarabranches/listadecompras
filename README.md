@@ -19,16 +19,16 @@ Esse projeto foi densevolvido no sistema operacional Windows utilizando o progra
 Para instalar o ``VSCode``: https://www.youtube.com/watch?v=iLraM_NZYfA
 
 ## 🔮 Implementações Futuras
-- Excluir produto 
-- Atualizar Soma 
-- Editar Produtos
-- Salvar listas de compras com datas para análises futuras
-- Criação de Conta
-- Gerar um Aplicativo
+- [X] Excluir produto 
+- [X] Atualizar Soma 
+- [ ] Editar Produtos
+- [ ] Salvar listas de compras com datas para análises futuras
+- [ ] Criação de Conta
+- [ ] Gerar um Aplicativo
 
 ## ✅ Status do Projeto
 <img loading="lazy" src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/>
 
 ## ⭐ Extras
 Inicialmente o projeto foi contruido em ``PyQt5``, porém resolvi migrar o código que já estava pronto para ``flet``, uma vez que o ``flet`` permiti a adaptação do programa para multiplataformas.
-- Os codigos de testes e criados com ``PyQt5`` permanessem no repositório na pasta testes. 
+- Os códigos de testes e criados com ``PyQt5`` permanessem no repositório na pasta testes. 
