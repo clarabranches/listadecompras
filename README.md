@@ -3,7 +3,7 @@
 ## 💬 Descrição</h2>
 Esse projeto é uma aplicação onde o usuário pode criar uma lista de compras adicionando produtos, valores e quantidades. Além de adicionar ele também gera o valor total da lista de compras. 
 
-## 🛠️ Funcionalidades
+## 🛠️ Algoritmo
 - Armazenar valores(Produto, preço e quantidades)
 - Realizar soma total do valor da lista de compras
 - Adicionar e Excluir valores
