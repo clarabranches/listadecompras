@@ -19,12 +19,12 @@ Esse projeto foi densevolvido no sistema operacional Windows utilizando o progra
 Para instalar o ``VSCode``: https://www.youtube.com/watch?v=iLraM_NZYfA
 
 ## 🔮 Implementações Futuras
-- [X] Excluir produto 
-- [X] Atualizar Soma 
-- [ ] Editar Produtos
-- [ ] Salvar listas de compras com datas para análises futuras
-- [ ] Criação de Conta
-- [ ] Gerar um Aplicativo
+-  Excluir produto 
+-  Atualizar Soma 
+-  Editar Produtos
+-  Salvar listas de compras com datas para análises futuras
+-  Criação de Conta
+-  Gerar um Aplicativo
 
 ## ✅ Status do Projeto
 <img loading="lazy" src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/>
